@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>"C:\ProgramData\AutoDesk\Revit\AddIns\2014\MatchWorkset\MatchWorkset.dll"</Assembly>
+    <AddInId>fcddea58-8c97-4ab0-b46b-f400c2d20177</AddInId>
+    <FullClassName>MatchWorkset.Commands.MatchWorksetCommand</FullClassName>
+    <Text>Match Workset</Text>
+    <VendorId>TSRA</VendorId>
+    <VendorDescription>Doug Klassen</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>MatchWorksetStartUpApp</Name>
+    <Assembly>C:\ProgramData\AutoDesk\Revit\AddIns\2014\MatchWorkset\MatchWorkset.dll</Assembly>
+    <AddInId>dad703ac-c33d-4cda-bffe-25fa51c4e51b</AddInId>
+    <FullClassName>MatchWorkset.StartUp.StartUpApp</FullClassName>
+    <VendorId>TSRA</VendorId>
+    <VendorDescription>Doug Klassen</VendorDescription>
+  </AddIn>
+</RevitAddIns>
